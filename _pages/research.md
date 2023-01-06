@@ -8,13 +8,15 @@ redirect_from:
 ---
 
 ## Work in Progress
-**Work-from-Home, Foot Traffic, and Retail Amenities.**
+**Food Retailers and SNAP: Who Captures the Federal Food Dollar?**
+(with Lin Fan, Jessie Handbury, Ilya Rahkovsky, and Erik Scherpf)
 
-As hybrid and remote work becomes more common, how does the reduction in commuter foot traffic affect retail amenities and consumer welfare? Using cell phone location data, we investigate how visits to venues change when remote workers no longer travel from the office nor the commuting path. We also examine the resulting effects on retailer profits, entry, and exit.
+SNAP benefits buy 14 cents of every dollar spent on food in U.S. supermarkets.  However, the effect of SNAP on the prices charged by food retailers is far from clear; the only two studies examining this issue find opposite results. We present a model of consumer store choice and retailer price-setting that can rationalize different price responses following an increase in the per-recipient generosity of SNAP benefits than following an increase in the number of eligible households. Consumers face fixed travel costs when they choose to shop at local smaller “high price” retailers or larger, more disperse “every day low price” mass merchandisers. For new beneficiaries, SNAP benefits relieve liquidity constraints, making them more likely to switch to the distant mass merchandisers, who optimally respond by lowering prices to compete for SNAP dollars. However, when SNAP expands by increasing benefit size rather than enrollment, the increases are spread among more households and do not induce as much format switching; retailers optimally increase prices to capture the increased benefits. We use microdata on SNAP transactions and retail prices, as well as state-level variation in the generosity of benefits along both the intensive and extensive margins, to test the predictions of the model. We will then estimate its key parameters to quantify the welfare effects of intensive and extensive margin program expansions, in terms of the surplus split by beneficiaries and retailers and their spillover effects on non-recipient households.
 
-**The Welfare Effects of Efficiency Innovations in Residential Land Use.** 
+**Foot Traffic, Retail Amenities, and Local Development.**
+(with Jessie Handbury and Lindsay Relihan)
 
-More efficient use of residential land could mitigate housing supply and affordability concerns. One increasingly common innovation is the construction of accessory dwelling units (ADUs) attached to or on the same lot as a primary residence. We quantify the effects of ADUs on house prices, rents, and resident welfare.
+Over the past two decades, the availability of non-tradable services has become an important feature explaining residential neighborhood choice and local economic performance. As a result, many local economic developers and policy makers seek to reinvigorate communities through investing in initiatives that support such services. However, surprisingly little is known about the size of such investments that are required to support a local service-based economy or how such investments affect the service demand of existing residents. This paper aims to leverage the resorting of residential and employment locations induced by the adoption of work-from-home technology following the COVID-19 pandemic to estimate the necessary supply and demand elasticities for modeling neighborhood change with respect to non-tradable services and the welfare impacts of those changes. We measure both the elasticity of non-tradable service supply with respect to local customer density and the elasticity of non-tradable service demand with respect to establishment density.
 
 
 ## Working Papers
