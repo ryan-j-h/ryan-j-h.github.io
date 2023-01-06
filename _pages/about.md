@@ -11,4 +11,4 @@ redirect_from:
 
 I am a pre-doctoral economics researcher at Wharton's Real Estate Department. 
 
-My research interests include urban economics and empirical industrial organization. I am especially interested in affordable housing, neighborhood change, and refugee policy.
+My research interests include urban economics and empirical industrial organization. I am especially interested in the distribution of neighborhood amenities within cities and how they are allocated through the housing market.
