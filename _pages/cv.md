@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-<embed src="/files/Ryan Hastings CV 06.2023.pdf" type="application/pdf">
+<embed src="/files/Ryan Hastings CV 2023.11 - website.pdf" type="application/pdf">
