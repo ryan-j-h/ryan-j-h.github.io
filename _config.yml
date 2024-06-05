@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Ryan Hastings"
 title_separator          : "-"
 name                     : &name "Ryan Hastings"
-description              : &description "Economics PhD Student\n @ Stanford GSB"
+description              : &description "Economics PhD Student @ Stanford GSB"
 url                      : https://ryan-j-h.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ryan-j-h/ryan-j-h.github.io"
@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Ryan Hastings"
   avatar           : "profile.jpg"
-  bio              : "Pre-Doctoral Economics Researcher at Wharton"
-  location         : "Philadelphia, PA"
-  employer         :
+  bio              : "Economics PhD Student\n @ Stanford GSB"
+  location         : 
+  employer         : 
   pubmed           : 
   googlescholar    : 
   email            :
