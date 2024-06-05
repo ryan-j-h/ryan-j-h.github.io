@@ -9,6 +9,6 @@ redirect_from:
   - /home/
 ---
 
-I am a pre-doctoral economics researcher at Wharton's Real Estate Department. 
+I am a first-year PhD student in Economic Analysis and Policy at Stanford's Graduate School of Business. 
 
-My research interests include urban and spatial economics and empirical industrial organization. I am especially interested in the accessibility and affordability of housing, consumption opportunities, and jobs across neighborhoods and cities. 
+My research interests include urban and spatial economics and empirical industrial organization. I am especially interested in the accessibility and affordability of housing, consumption opportunities, and jobs across neighborhoods and cities.
