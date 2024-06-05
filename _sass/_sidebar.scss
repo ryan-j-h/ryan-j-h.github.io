@@ -110,6 +110,8 @@
 
 .author__name {
   margin: 0;
+  left: 50%;
+  transform: translateX(-50%);
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -123,6 +125,8 @@
 
 .author__bio {
   margin: 0;
+  left: 50%;
+  transform: translateX(-50%);
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -161,7 +165,8 @@
 .author__urls {
   display: none;
   position: absolute;
-  right: 0;
+  left: 50%;
+  transform: translateX(-50%);
   margin-top: 15px;
   padding: 10px;
   list-style-type: none;
