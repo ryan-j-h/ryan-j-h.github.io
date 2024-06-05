@@ -37,6 +37,7 @@
 .page__title {
   margin-top: 0;
   line-height: 1;
+  font-size: $type-size-5;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -45,7 +46,7 @@
 
 .page__lead {
   font-family: $global-font-family;
-  font-size: $type-size-5;
+  font-size: $type-size-6;
 }
 
 .page__content {
@@ -53,10 +54,11 @@
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
+    font-size: $type-size-6;
   }
 
   p, li, dl {
-    font-size: $type-size-7;
+    font-size: $type-size-65;
   }
 
   /* paragraph indents */
@@ -151,7 +153,7 @@
     }
 
     .page__title {
-      font-size: $type-size-4;
+      font-size: $type-size-5;
 
       @include breakpoint($small) {
         font-size: $type-size-1;
