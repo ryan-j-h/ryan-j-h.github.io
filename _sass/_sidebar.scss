@@ -6,6 +6,9 @@
    Default
    ========================================================================== */
 
+//$large : 925px !default;
+$large: 768px !default;
+
 .sidebar {
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
@@ -101,12 +104,12 @@
   padding-right: 25px;
   line-height: 1;
 
-  @include breakpoint($large) {
+  //@include breakpoint($large) {
     display: block;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
-  }
+  //}
 }
 
 .author__name {
@@ -125,10 +128,10 @@
 .author__bio {
   margin: 0;
 
-  @include breakpoint($large) {
+  //@include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
-  }
+  //}
 }
 
 .author__urls-wrapper {
@@ -165,11 +168,11 @@
   margin-top: 15px;
   padding: 10px;
   list-style-type: none;
-  border: 1px solid $border-color;
+  //border: 1px solid $border-color;
   border-radius: $border-radius;
-  background: #fff;
+  //background: #fff;
   z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
+  //box-shadow: 0 0 10px rgba(#000, 0.25);
   cursor: default;
 
   @include breakpoint($large) {
