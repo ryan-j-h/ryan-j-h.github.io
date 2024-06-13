@@ -163,6 +163,7 @@ $large: 768px !default;
 }
 
 .author__urls {
+  @include breakpoint($large) {
   display: none;
   position: absolute;
   margin-top: 15px;
@@ -236,5 +237,6 @@ $large: 768px !default;
     &:hover {
       text-decoration: underline;
     }
+  }
   }
 }
