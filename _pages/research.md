@@ -5,6 +5,7 @@ author_profile: true
 redirect_from:
   - /publications
 ---
+<script> function button(id) { var x = document.getElementById(id); var ids = ["abs1", "abs2", "abs3", "abs4", "abs5", "abs6", "sum1", "sum2", "sum3"]; for(var i = 0; i < ids.length; i++) { var item = ids[i]; if (item != id) { document.getElementById(item).style.display = "none"; } else { if (x.style.display === "none") { x.style.display = "block" } else { x.style.display = "none"; } } } } </script>
 
 <p style="margin-bottom:0">Test Paper (with Test Authors)</p>
 <div class="buttonbar">[
