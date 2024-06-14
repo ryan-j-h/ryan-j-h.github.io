@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+ 
+<script>
+function button(id) {
+  var x = document.getElementById(id);
+  var ids = ["abs1", "abs2", "abs3", "abs4", "abs5", "abs6", "sum1", "sum2", "sum3"];
+  for(var i = 0; i < ids.length; i++) {
+    var item = ids[i];
+    if (item != id) {
+      document.getElementById(item).style.display = "none";
+    } else {
+      if (x.style.display === "none") {
+        x.style.display = "block"
+      } else {
+        x.style.display = "none";
+      }
+    }
+  }	
+}
+</script> 
+  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="manifest" href="/images/site.webmanifest">
+  <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#e77500">
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <meta name="msapplication-TileColor" content="#188aff">
+  <meta name="msapplication-config" content="/images/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  
+</head>
+
+<body>
+  <div class="wrapper">
+  <header>
+    <img src="/images/profile.jpg" width="230"/>
+    <p></p>
+    <h1>Ryan Hastings</h1>
+    <p><strong>PhD Student</strong>
+    <br><strong>Economic Analysis and Policy</strong>
+    <br><strong>Stanford Graduate School of Business</strong>
+    </p>
+    <a href="mailto:rjh62@stanford.edu" style="color:#222">rjh62@stanford.edu</a>
+  </header>
+    
+  <section>  
+  <p>I work on XX [ <a href="/files/cv.pdf" target="_blank">CV</a> ]</p>
+  
+  <h3>Working papers</h3>
+
+  <p style="margin-bottom:0">Title (with Person)</p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;abs5&quot;)">abstract</button>
+    | <a href="/files/cv.pdf" target="_blank">paper</a> 
+    | <a href="https://ryan-j-h.github.io" target="_blank">summary</a> 
+  ]</div>
+  <div class="popup" id="abs5" style="display:none">Lorem ipsum lorem ipsum.</div>
+  <br>
+
+  </section>
+  </div>
+  <script src="/assets/js/scale.fix.js"></script>
+</body>
+  
+</html>
