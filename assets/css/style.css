@@ -57,6 +57,7 @@ div.popup{
   border-left:1px solid #bbbbbb;
   padding-left:15px;
   color:#666;
+  font:14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .button{
   background-color:#ffffff;
