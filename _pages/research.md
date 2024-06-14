@@ -6,7 +6,7 @@ redirect_from:
   - /publications
 ---
 <p style="font-size:18px"><b>Work in Progress</b></p>
-<p style="font-size:8px"> </p>
+<p style="font-size:6px"> </p>
 <p style="margin-bottom:0"><b>Remote Work, Local Service Economies, and the Supply of Consumption Amenities.</b></p>
 <p style="margin-bottom:0">(with Jessie Handbury and Lindsay Relihan)</p>
 <div class="buttonbar">[
