@@ -6,6 +6,14 @@ redirect_from:
   - /publications
 ---
 
+<p style="margin-bottom:0">Test Paper (with Test Authors)</p>
+<div class="buttonbar">[
+    <button class="button" onclick="button(&quot;abs5&quot;)">abstract</button>
+  ]</div>
+  <div class="popup" id="abs5" style="display:none">Test abstract</div>
+<br>
+<p style="margin-bottom:0">Test Paper 2 (with Test Authors)</p>
+
 ## Work in Progress
 
 **Remote Work, Local Service Economies, and the Supply of Consumption Amenities.**  
