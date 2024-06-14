@@ -5,7 +5,7 @@ author_profile: true
 redirect_from:
   - /publications
 ---
-### Work in Progress
+<p style="font-size:24px"><b>Work in Progress?</b></p>
 
 <p style="margin-bottom:0"><b>Remote Work, Local Service Economies, and the Supply of Consumption Amenities.</b></p>
 <p style="margin-bottom:0">(with Jessie Handbury and Lindsay Relihan)</p>
@@ -16,9 +16,7 @@ redirect_from:
   Over the past two decades, the availability of non-tradable services has become an important feature explaining residential neighborhood choice and local economic performance. However, surprisingly little is known about the size of investments that are required to support a local service-based economy or how such investments affect the service demand of existing residents. This paper leverages the resorting of residential and employment locations induced by the widespread adoption of remote work following the COVID-19 pandemic to investigate how the supply of consumption amenities responds to changes in local density and demographics. We use credit card transactions to measure consumer expenditures and create a high-frequency panel of establishment openings and closures. We estimate both the elasticity of non-tradable service supply with respect to local customer density and the elasticity of non-tradable service demand with respect to establishment density. We use a model of retail demand to study the distributional effects of the growing suburbanization of consumption amenities in recent years. 
   </div>  
 
-&ensp;
-
-<p style="margin-bottom:0"><b>Food Retailers and SNAP: Who Captures the Federal Food Dollar?</b></p>
+&ensp; <p style="margin-bottom:0"><b>Food Retailers and SNAP: Who Captures the Federal Food Dollar?</b></p>
 <p style="margin-bottom:0">(with Lin Fan, Jessie Handbury, Ilya Rahkovsky, and Erik Scherpf)</p>
 <div class="buttonbar">[
     <button class="button" onclick="button(&quot;abs2&quot;)">abstract</button>
