@@ -72,6 +72,7 @@ $large: 768px !default;
    Author profile and links
    ========================================================================== */
 
+// profile image
 .author__avatar {
   display: table-cell;
   vertical-align: top;
@@ -79,6 +80,7 @@ $large: 768px !default;
   // set width only, for non-square avatars
   // height: 36px;
 
+  /* OLD
   //@include breakpoint($large) {
     display: block;
     width: auto;
@@ -87,7 +89,7 @@ $large: 768px !default;
 
   img {
     max-width: 175px;
-    /*border-radius: 50%;*/
+    // border-radius: 50%;
     
     padding: 5px;
     @include breakpoint($large) {
@@ -95,7 +97,32 @@ $large: 768px !default;
       border: 1px solid $border-color;
     }
   }
+  */
+
+  // Use flexbox for centering, unless above breakpoint
+  display: flex;
+  justify-content: center;  // Center horizontally
+  align-items: center;      // Center vertically
+  width: auto;
+  height: auto;
+
+  @include breakpoint($large) {
+    display: block;
+  }
+
+  img {
+    max-width: 175px;
+    padding: 5px;
+
+    @include breakpoint($large) {
+      border: 1px solid $border-color;
+    }
+  }
+
 }
+
+  
+
 
 .author__content {
   display: table-cell;
