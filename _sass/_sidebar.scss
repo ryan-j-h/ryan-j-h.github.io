@@ -190,8 +190,8 @@ $large: 768px !default;
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
-  vertical-align: middle;
+  display: block;
+  //vertical-align: middle;
   font-family: $sans-serif;
   z-index: 10;
   position: relative;
@@ -225,7 +225,7 @@ $large: 768px !default;
   align-items: center;      // Center vertically
   width: auto;
   height: auto;
-  
+
   /*
   display: none;
   position: absolute;
@@ -246,13 +246,12 @@ $large: 768px !default;
   border: 0;
   background: transparent;
   box-shadow: none;
-  margin-top: 15px;
-  margin-bottom: 10px;
+  //margin-top: 15px;
+  //margin-bottom: 10px;
   z-index: -1;
 
   @include breakpoint($large) {
     display: block;
-
   }
 
   &:before {
