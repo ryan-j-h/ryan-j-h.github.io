@@ -240,14 +240,17 @@ $large: 768px !default;
   */
 
   position: relative;
-  margin: 0;
+  //margin: 0;
   padding: 0;
   border: 0;
   background: transparent;
   box-shadow: none;
+  margin-top: 15px;
+  z-index: -1;
 
   @include breakpoint($large) {
     display: block;
+
   }
 
   &:before {
