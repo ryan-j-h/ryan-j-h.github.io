@@ -128,17 +128,17 @@ $large: 768px !default;
   padding-right: 25px;
   line-height: 1;
 
-  // Use flexbox for centering, unless above breakpoint
-  display: flex;
-  justify-content: center;  // Center horizontally
-  align-items: center;      // Center vertically
-  width: auto;
-  height: auto;
+  // // Use flexbox for centering, unless above breakpoint
+  // display: flex;
+  // justify-content: center;  // Center horizontally
+  // align-items: center;      // Center vertically
+  // width: auto;
+  // height: auto;
   
-  @include breakpoint($large) {
-    display: block;
-  }
-  
+  // @include breakpoint($large) {
+  //   display: block;
+  // }
+
   width: 100%;
   padding-left: 0;
   padding-right: 0;
@@ -151,6 +151,17 @@ $large: 768px !default;
     margin-top: 10px;
     margin-bottom: 10px;
   //}
+
+    // Use flexbox for centering, unless above breakpoint
+    display: flex;
+    justify-content: center;  // Center horizontally
+    align-items: center;      // Center vertically
+    width: auto;
+    height: auto;
+    
+    @include breakpoint($large) {
+      display: block;
+    }
 }
 .sidebar .author__name {
   font-family: $sans-serif;
@@ -164,6 +175,17 @@ $large: 768px !default;
     margin-top: 10px;
     margin-bottom: 20px;
   //}
+
+    // Use flexbox for centering, unless above breakpoint
+    display: flex;
+    justify-content: center;  // Center horizontally
+    align-items: center;      // Center vertically
+    width: auto;
+    height: auto;
+    
+    @include breakpoint($large) {
+      display: block;
+    }
 }
 
 .author__urls-wrapper {
@@ -180,7 +202,7 @@ $large: 768px !default;
       margin-bottom: 0;
     }
   }
-
+  
   @include breakpoint($large) {
     display: block;
   }
