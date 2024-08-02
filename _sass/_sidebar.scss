@@ -28,9 +28,9 @@ $large: 768px !default;
   }
 
 
-  @include breakpoint($x-large) {
-    padding-right: 0;
-  }
+  // @include breakpoint($x-large) {
+  //   padding-right: 0;
+  // }
 
   h2, h3, h4, h5, h6 {
     margin-bottom: 0;
