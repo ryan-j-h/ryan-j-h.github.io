@@ -198,11 +198,12 @@ $large: 768px !default;
   cursor: pointer;
   margin-bottom: 10px;
 
-  li:last-child {
+  /* li:last-child {
     a {
       margin-bottom: 0;
     }
   }
+  */
   
   @include breakpoint($large) {
     display: block;
