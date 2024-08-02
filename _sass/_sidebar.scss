@@ -220,11 +220,13 @@ $large: 768px !default;
 .author__urls {
   // Use flexbox for centering, unless above breakpoint
   display: flex;
-  flex-direction: column;
+  //flex-direction: column;
   justify-content: center;  // Center horizontally
   align-items: center;      // Center vertically
   width: auto;
   height: auto;
+
+  list-style-type: none;
 
   /*
   display: none;
