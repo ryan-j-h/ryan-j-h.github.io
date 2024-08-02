@@ -121,9 +121,6 @@ $large: 768px !default;
 
 }
 
-  
-
-
 .author__content {
   display: table-cell;
   vertical-align: top;
@@ -131,12 +128,20 @@ $large: 768px !default;
   padding-right: 25px;
   line-height: 1;
 
-  //@include breakpoint($large) {
+  // Use flexbox for centering, unless above breakpoint
+  display: flex;
+  justify-content: center;  // Center horizontally
+  align-items: center;      // Center vertically
+  width: auto;
+  height: auto;
+  
+  @include breakpoint($large) {
     display: block;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-  //}
+  }
+  
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .author__name {
