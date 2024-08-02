@@ -214,6 +214,18 @@ $large: 768px !default;
 }
 
 .author__urls {
+  // Use flexbox for centering, unless above breakpoint
+  display: flex;
+  justify-content: center;  // Center horizontally
+  align-items: center;      // Center vertically
+  width: auto;
+  height: auto;
+  
+  @include breakpoint($large) {
+    display: block;
+  }
+  
+  /*
   display: none;
   position: absolute;
   margin-top: 15px;
@@ -225,15 +237,17 @@ $large: 768px !default;
   z-index: -1;
   //box-shadow: 0 0 10px rgba(#000, 0.25);
   cursor: default;
+  */
+
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
 
   @include breakpoint($large) {
     display: block;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    box-shadow: none;
   }
 
   &:before {
