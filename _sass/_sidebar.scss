@@ -124,22 +124,22 @@ $large: 768px !default;
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
+  width: 100%;
   
   margin-top: 10px;
   margin-bottom: 20px;
 
-  // // Use flexbox for centering, unless above breakpoint
-  // display: flex;
-  // justify-content: center;  // Center horizontally
-  // align-items: center;      // Center vertically
-  // width: auto;
-  // height: auto;
+  // Use flexbox for centering, unless above breakpoint
+  display: flex;
+  justify-content: center;  // Center horizontally
+  align-items: center;      // Center vertically
+  width: auto;
+  height: auto;
   
-  // @include breakpoint($large) {
-  //   display: block;
-  // }
+  @include breakpoint($large) {
+    display: block;
+  }
 
-  width: 100%;
   padding-left: 0;
   padding-right: 0;
 }
