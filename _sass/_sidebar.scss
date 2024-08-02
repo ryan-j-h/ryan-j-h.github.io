@@ -111,9 +111,9 @@ $large: 768px !default;
     max-width: 175px;
     padding: 5px;
 
-    @include breakpoint($large) {
-      border: 1px solid $border-color;
-    }
+    // @include breakpoint($large) {
+    //   border: 1px solid $border-color;
+    // }
   }
 
 }
