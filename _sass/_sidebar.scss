@@ -193,6 +193,7 @@ $large: 768px !default;
   z-index: 10;
   position: relative;
   cursor: pointer;
+  margin-bottom: 10px;
 
   li:last-child {
     a {
@@ -216,14 +217,11 @@ $large: 768px !default;
 .author__urls {
   // Use flexbox for centering, unless above breakpoint
   display: flex;
+  flex-direction: column;
   justify-content: center;  // Center horizontally
   align-items: center;      // Center vertically
   width: auto;
   height: auto;
-  
-  @include breakpoint($large) {
-    display: block;
-  }
   
   /*
   display: none;
@@ -246,6 +244,7 @@ $large: 768px !default;
   background: transparent;
   box-shadow: none;
   margin-top: 15px;
+  margin-bottom: 10px;
   z-index: -1;
 
   @include breakpoint($large) {
