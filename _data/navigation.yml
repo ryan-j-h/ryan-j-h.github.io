@@ -3,5 +3,5 @@ main:
   - title: "CV"
     url: /files/cv.pdf
     
-  - title: "Research"
-    url: /research/
+  #- title: "Research"
+  #  url: /research/
