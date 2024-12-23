@@ -11,7 +11,10 @@ redirect_from:
 
 I am a first-year PhD student in Economic Analysis and Policy at Stanford's Graduate School of Business. 
 
-My research interests include urban and spatial economics and empirical industrial organization. I am especially interested in the accessibility and affordability of housing, consumption opportunities, and jobs across neighborhoods and cities.
+<!-- 
+My research interests include urban and spatial economics and empirical industrial organization. 
+I am especially interested in the accessibility and affordability of housing, consumption opportunities, and jobs across neighborhoods and cities.
+-->
 
 <p style="font-size:12px"></p>
 <p style="font-size:18px"><b>Work in Progress</b></p>
