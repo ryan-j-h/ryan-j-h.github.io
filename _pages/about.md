@@ -9,13 +9,30 @@ redirect_from:
   - /home/
 ---
 
-I am a first-year PhD student in Economic Analysis and Policy at Stanford's Graduate School of Business. 
+I am a second-year PhD student in Economic Analysis and Policy at Stanford's Graduate School of Business. I am interested in the industrial organization of housing markets and international trade.
+
+<!--
+Some topics I am currently working on include:
+- Property tax lock-in and housing misallocation  
+  (with Laila Voss)
+- The supply of consumption amenities    
+  (with Jessie Handbury and Lindsay Relihan)
+- Competition in homeowners insurance markets  
+  (with Rebecca Diamond and Shoshana Vasserman)
+- Price regulation in homeowners insurance markets  
+  (with Carine You)
+- Innovation in battery supply chains  
+  (with Zahra Thabet and Carine You)
+- Market power and trade policy in minerals markets  
+  (with Zahra Thabet and Carine You)
+-->
 
 <!-- 
 My research interests include urban and spatial economics and empirical industrial organization. 
 I am especially interested in the accessibility and affordability of housing, consumption opportunities, and jobs across neighborhoods and cities.
 -->
 
+<!--
 <p style="font-size:12px"></p>
 <p style="font-size:18px"><b>Work in Progress</b></p>
 <p style="margin-bottom:0"><b>Remote Work, Local Service Economies, and the Supply of Consumption Amenities.</b></p>
@@ -36,5 +53,8 @@ I am especially interested in the accessibility and affordability of housing, co
 SNAP benefits buy 14 cents of every dollar spent on food in U.S. supermarkets and are a large, volatile component of retail demand. However, the effect of SNAP on the prices charged by food retailers is far from clear; the only two studies examining this issue find opposite results. We use administrative data on SNAP transactions and scanner data on 	retail prices and household expenditures, along with state-level variation in the generosity of benefits along both the intensive and extensive margins that are plausibly exogenous to local macroeconomic trends. We find that prices tend to increase following an increase in the per-recipient generosity of SNAP benefits but decrease following an increase in the number of eligible households. We present a model of consumer store choice and retailer price-setting featuring travel costs and liquidity constraints that can rationalize these diverging price responses. We then test its predictions and estimate its key parameters to quantify the incidence and welfare effects of intensive and extensive margin program expansions, in terms of the surplus split by beneficiaries and retailers and their spillover effects on non-recipient households. 
   </div>
 
+
 <script> function button(id) { var x = document.getElementById(id); var ids = ["abs1", "abs2"]; for(var i = 0; i < ids.length; i++) { var item = ids[i]; if (item != id) { document.getElementById(item).style.display = "none"; } else { if (x.style.display === "none") { x.style.display = "block" } else { x.style.display = "none"; } } } } </script>
+
+  -->
 
