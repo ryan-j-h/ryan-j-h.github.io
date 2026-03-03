@@ -9,7 +9,8 @@ redirect_from:
   - /home/
 ---
 
-I am a second-year PhD student in Economic Analysis and Policy at Stanford's Graduate School of Business. I study housing markets and supply chains, using tools from empirical industrial organization, international trade, and public finance.
+I am a second-year PhD student in Economic Analysis and Policy at Stanford's Graduate School of Business. I study housing markets and supply chains using tools from empirical industrial organization, international trade, and public finance.
+
 <!--
 Some topics I am currently working on include:
 - Property tax lock-in and housing misallocation  
