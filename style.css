@@ -1,0 +1,116 @@
+:root {
+  --text: #1a1a1a;
+  --muted: #555;
+  --accent: #8c1515;
+  --rule: #ddd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Charter, "Bitstream Charter", Georgia, "Times New Roman", serif;
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: var(--text);
+  max-width: 42rem;
+  margin: 3rem auto;
+  padding: 0 1.25rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.headshot {
+  width: 11rem;
+  border-radius: 6px;
+}
+
+h1 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin: 0 0 0.3rem;
+}
+
+.affiliation {
+  color: var(--muted);
+  margin: 0 0 0.6rem;
+}
+
+.links a {
+  margin-right: 0.9rem;
+}
+
+@media (max-width: 36rem) {
+  header {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .links a {
+    margin: 0 0.45rem;
+  }
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.3rem;
+  margin: 2.2rem 0 1.2rem;
+}
+
+.paper {
+  margin-bottom: 1.6rem;
+}
+
+.paper p {
+  margin: 0;
+}
+
+.paper-title {
+  font-weight: 600;
+}
+
+.coauthors {
+  color: var(--muted);
+}
+
+details {
+  margin-top: 0.35rem;
+}
+
+summary {
+  color: var(--accent);
+  cursor: pointer;
+  width: fit-content;
+  font-size: 0.95rem;
+}
+
+summary:hover {
+  text-decoration: underline;
+}
+
+details p {
+  font-size: 0.95rem;
+  color: var(--muted);
+  border-left: 2px solid var(--rule);
+  padding-left: 1rem;
+  margin: 0.6rem 0 0;
+}
