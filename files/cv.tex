@@ -1,0 +1,97 @@
+\documentclass[11pt, letterpaper]{article}
+
+% Page geometry
+\usepackage[margin=1in, top=0.6in]{geometry}
+
+% Typography and fonts (Times New Roman)
+\usepackage{mathptmx}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+
+% Formatting packages
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+% Link colors
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,
+    urlcolor=black,
+}
+
+% Section formatting: Small Caps, slightly larger, with a rule underneath
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{1.5ex plus 1ex minus .2ex}{1ex plus .2ex}
+
+% Remove paragraph indentation and add space between paragraphs
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\large \textsc{Curriculum Vitae}}\\[1ex]
+    {\huge \textbf{\textsc{Ryan Hastings}}}\\[1ex]
+    Stanford, California \\
+    (he/him) \\
+    \href{mailto:rhastings@stanford.edu}{rhastings@stanford.edu} \hspace{0.5em} $\cdot$ \hspace{0.5em} \href{https://ryan-j-h.github.io}{ryan-j-h.github.io}
+\end{center}
+
+\section*{Education}
+\textbf{Stanford Graduate School of Business.} \hfill 2024--2030 \\
+\hspace*{1.5em}Ph.D.\ in Economic Analysis and Policy.
+
+\textbf{Duke University.} \hfill 2018--2022 \\
+\hspace*{1.5em}B.S.\ in Economics and Statistical Science, \textit{summa cum laude}.
+
+\section*{Field Interests}
+% Using tabular to perfectly align the fields vertically
+\begin{tabular}{@{}l l}
+\textit{Primary:} & Empirical Industrial Organization, International Trade, Urban Economics.\\
+\textit{Secondary:} & Public Economics, Environmental Economics, Development Economics.
+\end{tabular}
+
+% Work in Progress
+\section*{Work in Progress}
+Industrial Policy and Investment Dynamics in the Global Copper Supply Chain. \\
+\hspace*{1.5em}(with Carine You)
+
+Infrastructure Investment and Resilience in the European Natural Gas Network. \\
+\hspace*{1.5em}(with Ben Barrett)
+
+Competition, Uncertainty, and Unraveling in Homeowners Insurance.\\
+\hspace*{1.5em}(with Shoshana Vasserman)
+
+Workers, Residents, and the Supply of Local Consumption Amenities. \\
+\hspace*{1.5em}(with Jessie Handbury and Lindsay Relihan)
+
+\section*{Research Experience}
+Academic Fellow, JPMorgan Chase Institute. \hfill 2024--Present \\
+\hspace*{1.5em}Local Economic Development Team.
+
+Predoctoral Research Fellow, Wharton Real Estate Department. \hfill 2022--2024 \\
+\hspace*{1.5em}with Prof.s Jessie Handbury \& Sophie Calder-Wang.
+
+Research Assistant, Duke Economics Department. \hfill 2019--2022 \\
+\hspace*{1.5em}with Prof.\ Christopher Timmins.
+
+\section*{Teaching Experience}
+Teaching Assistant, Duke University. \hfill 2020--2022 \\
+\hspace*{1.5em}ECON 201: Intermediate Microeconomics I. \\
+\hspace*{1.5em}ECON 205: Intermediate Microeconomics II (x3). \\
+\hspace*{1.5em}MATH 343/STA 432: Mathematical Statistics.
+
+\section*{Technical Skills}
+R, Python, Stata, Scala, SQL, SAS, Git, Make, Unix, Slurm, SGE, AWS, \LaTeX, Markdown.
+
+\section*{Awards and Fellowships}
+Graduate Research Fellowship, National Science Foundation. \hfill 2024--2029 \\
+Erik R. Larson Fellowship, Stanford University. \hfill 2025--2026 \\
+Walter T. Lillie Fellowship, Stanford University. \hfill 2024--2025 \\
+Ernest C. Arbuckle Fellowship, Stanford University. \hfill 2024--2025 \\
+Allen Starling Johnson, Jr.\ Best Thesis Prize (shared), Duke Economics. \hfill 2022 \\
+Phi Beta Kappa, Duke University. \hfill 2021
+
+\end{document}
