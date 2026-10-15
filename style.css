@@ -114,3 +114,8 @@ details p {
   padding-left: 1rem;
   margin: 0.6rem 0 0;
 }
+
+.bio {
+  text-align: justify;
+  hyphens: auto;
+}
